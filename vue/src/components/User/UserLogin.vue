@@ -1,5 +1,4 @@
 <template>
-  <div class="bg-gradient-primary">
     <div class="container">
       <!-- Outer Row -->
       <div class="row justify-content-center">
@@ -63,7 +62,7 @@
                       <a class="small" href="forgot-password.html">Forgot Password?</a>
                     </div>
                     <div class="text-center">
-                      <a class="small" href="register.html">Create an Account!</a>
+                      <router-link to="/user-register" class="small">Create an Account!</router-link>
                     </div>
                   </div>
                 </div>
@@ -73,7 +72,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
